@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="functions.js">
+</script>
 </head>
 <body>
 
 <div class="header">
   <h1>School Website</h1>
-  <p>Knowledge is Power</p>
+  <h3>Knowledge is Power</h3>
 </div>
 
 <div class="topnav">
@@ -16,7 +20,7 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="">Syllabus</a>
+      <a href="">Beyond Academics</a>
       <a href="#">Calendar</a>
       <a href="#">Curicullum</a>
       <a href="#">Affliation</a>
@@ -77,13 +81,13 @@
   <div class="leftcolumn">
     <div class="card">
       <h2>OUR VISION</h2>
-      <div class="fakeimg" style="height:200px;">Image</div>
+      <div class="fakeimg" style="height:200px;"><img src="school1.jpg" alt="ch" width="800" height="190"></div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
     <div class="card">
       <h2>OUR MISSION</h2>
-      <div class="fakeimg" style="height:200px;">Image</div>
+      <div class="fakeimg" style="height:200px;"><img src="gimage1.jpg" alt="ch" width="800" height="190"></div>
       <p>Some text..</p>
       <p>cunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
@@ -96,15 +100,48 @@
     </div>
     <div class="card">
       <h3>Gallery</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
+      
+      <div class="container">
+       <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="gimage1.jpg" style="width:100%">
+       </div>
+       <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="gimage.jfif" style="width:100%">
+       </div>
+       <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="gimage2.jfif" style="width:100%">
+        </div>
+       <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="gimage3.jfif" style="width:100%">
+       </div>
+       <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="gimage4.jfif" style="width:100%">
+       </div>
+    
+       <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="gimage5.jfif" style="width:100%">
+       </div>
+    
+       <a class="prev" onclick="plusSlides(-1)">❮</a>
+       <a class="next" onclick="plusSlides(1)">❯</a>
+
+       <div class="caption-container">
+       <p id="caption"></p>
+      </div>
+     </div>
     </div>
-    <div class="card">
+  <div class="card">
       <h3>Follow us on</h3>
-      <p>Youtube:<a>href:""</a></p>
-      <p>Instagram:<a>href:""</a></p>
-      <p>Facebook:<a>href:""</a></p>
+      <p>Youtube   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fa fa-youtube"></a></p>
+      <p>Instagram <a href="https://www.instagram.com/hemanth_yarlagadda/" class="fa fa-instagram"></a></p>
+      <p>Facebook  <a href="https://www.facebook.com/FlatEarthToday" class="fa fa-facebook"></a></p>
+      <p>Linkedin  <a href="https://www.linkedin.com/in/elon-musk-3a54b5240" class="fa fa-linkedin"></a></p>
 
     </div>
   </div>
